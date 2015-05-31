@@ -1,4 +1,4 @@
-/** IMPORTS **/
+/** TYPOGRAPHY **/
 @font-face {
     font-family: 'Raleway-Thin';
     src: url(../fonts/Raleway-Thin.ttf);
@@ -19,7 +19,6 @@
     src: url(../fonts/Raleway-Medium.ttf);
 }
 
-/** TYPOGRAPHY **/
 $size-extra-small:  font(10px);
 $size-small:        font(12px);
 $size-regular:      font(16px);
@@ -40,55 +39,6 @@ $gray-800:          #424242;
 $gray-900:          #212121;
 $white:             #FFFFFF;
 
-/** GENERAL **/
-body {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-family: 'Raleway-Regular';
-    font-size: 14px;
-}
 
-/** LAYOUT **/
-.container {
-    width: 100%;
-    height: auto;
-}
-
-.header {
-    width: 100%;
-    min-height: 150px;
-
-    &--menu {
-        width: 60px;
-        height: 60px;
-        float: left;
-        margin: 45px 0 0 45px;
-        background-color: red;
-    }
-
-    &--title {
-        float: left;
-        margin: 50px 0 0 100px;
-    }
-}
-
-.content {
-    width: 100%;
-    height: auto;
-    padding: 40px;
-    box-sizing: border-box;
-
-    &--section {
-        width: 100%;
-        height: auto;
-
-        &_title {
-            margin-bottom: 40px;
-        }
-    }
-
-    &--block {
-        margin: 30px;
-    }
-}
+/** OTHERS **/
+$opacity:           0.3;
