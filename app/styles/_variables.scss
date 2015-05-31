@@ -19,13 +19,13 @@
     src: url(../fonts/Raleway-Medium.ttf);
 }
 
-$size-extra-small:  font(10px);
-$size-small:        font(12px);
-$size-regular:      font(16px);
-$size-medium:       font(24px);
-$size-large:        font(40px);
-$size-extra-large:  font(56px);
-$size-jumbo:        font(72px);
+$size-extra-small:  10px;
+$size-small:        12px;
+$size-regular:      16px;
+$size-medium:       24px;
+$size-large:        40px;
+$size-extra-large:  56px;
+$size-jumbo:        72px;
 
 .bold { font-weight: bold; }
 .italic { font-style: italic; }
@@ -41,4 +41,4 @@ $white:             #FFFFFF;
 
 
 /** OTHERS **/
-$opacity:           0.3;
+$opacity:           0.6;

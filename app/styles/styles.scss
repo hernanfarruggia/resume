@@ -1,0 +1,92 @@
+@import "./globals";
+
+/** GENERAL **/
+body {
+    background-color: $black;
+    background-image: url('../img/bg.png');
+    background-position: top;
+    background-repeat: no-repeat;
+    font-family: 'Raleway-Regular';
+    font-size: $size-regular;
+}
+
+/** LAYOUT **/
+.container {
+    width: 100%;
+    height: auto;
+}
+
+.header {
+    background-color: $black;
+    height: 80px;
+    opacity: $opacity;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+
+    &--logo {
+        color: $white;
+        float: left;
+        font-size: $size-medium;
+        margin: 20px 0 0 20px;
+    }
+
+    &--menu {
+        float: right;
+        list-style: none;
+        margin: 30px 20px 0 0;
+
+        .item {
+            display: inline-block;
+            margin: 0 30px;
+
+            .link {
+                color: $white;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+.content {
+    height: auto;
+    width: 100%;
+
+    &--main {
+        height: 800px;
+        padding-top: 300px;
+        width: 100%;
+
+        .main-message {
+            color: $white;
+            text-align: center;
+
+            &-big {
+                font-family: 'Raleway-Medium';
+                font-size: $size-jumbo;
+            }
+
+            &-small {
+                font-family: 'Raleway-Regular';
+                font-size: $size-regular;
+            }
+        }
+    }
+
+    &--section {
+        background-color: $white;
+        height: auto;
+        padding: 40px;
+        width: 100%;
+
+        &_title {
+            margin-bottom: 40px;
+        }
+    }
+
+    &--block {
+        margin: 30px;
+    }
+}
