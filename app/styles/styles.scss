@@ -131,14 +131,18 @@ body {
             }
 
             .subtitle {
-                color: $white;
+                color: $indigo-900;
 
                 &_small {
-                    color: $white;
+                    color: $blue-300;
                 }
             }
 
             .date {
+                color: $blue-100;
+            }
+
+            .description {
                 color: $white;
             }
         }
