@@ -104,6 +104,7 @@ body {
             margin: 30px;
         }
 
+        // EDUCATION STYLES ////////////////////////////////////////////////////
         &.education {
             background-color: $white;
 
@@ -123,6 +124,7 @@ body {
             }
         }
 
+        // WORK STYLES /////////////////////////////////////////////////////////
         &.work {
             background-color: $blue-800;
 
@@ -144,6 +146,26 @@ body {
 
             .description {
                 color: $white;
+            }
+        }
+
+        // SKILLS STYLES ///////////////////////////////////////////////////////
+        &.skills {
+            background-color: $white;
+
+            .title {
+                color: $gray-800;
+            }
+
+            .subtitle {
+
+                &_small {
+                    color: $gray-800;
+                }
+            }
+
+            .date {
+                color: $gray-500;
             }
         }
 
