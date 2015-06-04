@@ -167,6 +167,32 @@ body {
             .date {
                 color: $gray-500;
             }
+
+            &-block {
+
+                .item {
+                    color: $gray-500;
+                }
+
+                .stars {
+                    list-style: none;
+
+                    .star{
+                        display: inline-block;
+                        height: 24px;
+                        margin: 5px;
+                        width: 24px;
+
+                        &-gray {
+                            background-image: url('../img/star_gray_24.png');
+                        }
+
+                        &-yellow {
+                            background-image: url('../img/star_yellow_24.png');
+                        }
+                    }
+                }
+            }
         }
 
         &-data {
@@ -180,6 +206,8 @@ body {
 
         &-image {
             float: left;
+            text-align: center;
+            padding: 75px 0;
             width: 40%;
         }
     }
