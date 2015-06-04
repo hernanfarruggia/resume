@@ -34,11 +34,9 @@ body {
 
     &--menu {
         float: right;
-        list-style: none;
         margin: 30px 20px 0 0;
 
         .item {
-            display: inline-block;
             margin: 0 30px;
 
             .link {
@@ -168,27 +166,42 @@ body {
                 color: $gray-500;
             }
 
-            &-block {
+            .skills-block {
 
-                .item {
-                    color: $gray-500;
-                }
+                &-item {
+                    clear: both;
+                    overflow: hidden;
+                    padding: 20px 0;
 
-                .stars {
-                    list-style: none;
+                    &:hover {
+                        background-color: $gray-200;
+                    }
 
-                    .star{
-                        display: inline-block;
-                        height: 24px;
-                        margin: 5px;
-                        width: 24px;
+                    &_title {
+                        color: $gray-600;
+                        font-size: $size-regular;
+                        float: left;
+                        margin: 10px 20px 0 0;
+                        text-align: right;
+                        width: 30%;
+                    }
 
-                        &-gray {
-                            background-image: url('../img/star_gray_24.png');
-                        }
+                    &_stars {
+                        float: left;
+                        width: 50%;
 
-                        &-yellow {
-                            background-image: url('../img/star_yellow_24.png');
+                        .star{
+                            height: 24px;
+                            margin: 5px;
+                            width: 24px;
+
+                            &-gray {
+                                background-image: url('../img/star_gray_24.png');
+                            }
+
+                            &-yellow {
+                                background-image: url('../img/star_yellow_24.png');
+                            }
                         }
                     }
                 }
