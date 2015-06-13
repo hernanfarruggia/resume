@@ -14,9 +14,9 @@ var paths = {
     },
     core: {
         base:   './app/',
-        css:    './app/styles/*.scss',
-        images: './app/images/*.*',
-        fonts:  './app/fonts/*.ttf'
+        css:    './app/styles/**/*.scss',
+        images: './app/images/**/*.*',
+        fonts:  './app/fonts/**/*.ttf'
     }
 };
 

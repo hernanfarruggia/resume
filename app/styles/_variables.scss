@@ -47,12 +47,19 @@ $gray-600:          #757575;
 $gray-800:          #424242;
 $gray-900:          #212121;
 
+$green-400:         #9CCC65;
 $green-500:         #8BC34A;
+$green-800:         #558B2F;
 
 $indigo-900:        #1A237E;
+
+$teal-500:          #009688;
 
 $white:             #FFFFFF;
 
 
 /** OTHERS **/
-$opacity:           0.6;
+$opacity:           0.4;
+
+$transitionTime:    0.2s;
+$transitionType:    ease-in-out;
