@@ -9,11 +9,13 @@ var paths = {
     build: {
         base:   './',
         css:    './css/',
+        js:     './lib/',
         images: './img/',
         fonts:  './fonts/'
     },
     core: {
         base:   './app/',
+        js:     './app/lib/**/*.*',
         css:    './app/styles/**/*.scss',
         images: './app/images/**/*.*',
         fonts:  './app/fonts/**/*.ttf'
@@ -33,6 +35,11 @@ gulp.task('styles', function () {
         .pipe(gulp.dest(paths.build.css));
 });
 
+gulp.task('js', function () {
+    gulp.src(paths.core.js)
+        .pipe(gulp.dest(paths.build.js));
+});
+
 gulp.task('images', function () {
     gulp.src(paths.core.images)
         .pipe(gulp.dest(paths.build.images));
@@ -45,9 +52,10 @@ gulp.task('fonts', function () {
 
 gulp.task('watch', function () {
     gulp.watch(paths.core.css, ['styles']);
+    gulp.watch(paths.core.js, ['js']);
     gulp.watch(paths.core.images, ['images']);
 });
 
-gulp.task('default', ['styles', 'images', 'fonts', 'server', 'watch'], function() {
+gulp.task('default', ['styles', 'js', 'images', 'fonts', 'server', 'watch'], function() {
     console.log('[SERVER RUNNING] Go to http://localhost:5555');
 });
