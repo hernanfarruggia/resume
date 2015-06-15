@@ -11,7 +11,7 @@ var ContentSection = React.createClass ({
 
     render: function () {
         return (
-            <div {this.getProps()}>
+            <div {...this.getProps()}>
                 {this.props.children}
             </div>
         );

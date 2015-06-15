@@ -19,7 +19,7 @@ var paths = {
     core: {
         base:   './app/',
         js:     './app/lib/scripts.js',
-        react:  './app/lib/components/app.js',
+        react:  './app/lib/app.js',
         css:    './app/styles/**/*.scss',
         images: './app/images/**/*.*',
         fonts:  './app/fonts/**/*.ttf'
@@ -66,7 +66,7 @@ gulp.task('compile', function() {
 gulp.task('watch', function () {
     gulp.watch(paths.core.css, ['styles']);
     gulp.watch(paths.core.js, ['js']);
-    gulp.watch(paths.core.js, ['compile']);
+    gulp.watch(paths.core.react, ['compile']);
     gulp.watch(paths.core.images, ['images']);
 });
 
