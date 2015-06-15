@@ -18,9 +18,14 @@
   "homepage": "https://github.com/hernanfarruggia/resume#readme",
   "dependencies": {},
   "devDependencies": {
+    "browserify": "^10.2.4",
+    "classnames": "^1.2.0",
     "express": "^4.12.4",
     "gulp": "^3.8.11",
     "gulp-concat": "^2.5.2",
-    "gulp-sass": "^2.0.1"
+    "gulp-sass": "^2.0.1",
+    "react": "^0.13.3",
+    "reactify": "^1.1.1",
+    "vinyl-source-stream": "^1.1.0"
   }
 }

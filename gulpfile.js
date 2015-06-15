@@ -1,8 +1,11 @@
 // LIBS
+var browserify = require('browserify');
 var express = require('express');
 var gulp = require('gulp');
 var concat = require('gulp-concat');
 var sass = require('gulp-sass');
+var source = require('vinyl-source-stream');
+var reactify = require('reactify');
 
 // VARS
 var paths = {
@@ -15,7 +18,8 @@ var paths = {
     },
     core: {
         base:   './app/',
-        js:     './app/lib/**/*.*',
+        js:     './app/lib/scripts.js',
+        react:  './app/lib/components/app.js',
         css:    './app/styles/**/*.scss',
         images: './app/images/**/*.*',
         fonts:  './app/fonts/**/*.ttf'
@@ -50,12 +54,27 @@ gulp.task('fonts', function () {
         .pipe(gulp.dest(paths.build.fonts));
 });
 
+gulp.task('compile', function() {
+    return browserify(paths.core.react)
+        .transform(reactify)
+        .bundle()
+        .on('error', handleErrors)
+        .pipe(source('app.js'))
+        .pipe(gulp.dest(paths.build.js));
+})
+
 gulp.task('watch', function () {
     gulp.watch(paths.core.css, ['styles']);
     gulp.watch(paths.core.js, ['js']);
+    gulp.watch(paths.core.js, ['compile']);
     gulp.watch(paths.core.images, ['images']);
 });
 
-gulp.task('default', ['styles', 'js', 'images', 'fonts', 'server', 'watch'], function() {
+gulp.task('default', ['styles', 'js', 'compile', 'images', 'fonts', 'server', 'watch'], function() {
     console.log('[SERVER RUNNING] Go to http://localhost:5555');
 });
+
+// ERROR HANDLER
+var handleErrors = function (err) {
+    console.log(err.message);
+};

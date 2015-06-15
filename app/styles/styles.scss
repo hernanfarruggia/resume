@@ -55,27 +55,6 @@ body {
 .content {
     width: 100%;
 
-    &--main {
-        height: 800px;
-        padding-top: 300px;
-        width: 100%;
-
-        .main-message {
-            color: $white;
-            text-align: center;
-
-            &-big {
-                font-family: 'Raleway-Medium';
-                font-size: $size-jumbo;
-            }
-
-            &-small {
-                font-family: 'Raleway-Regular';
-                font-size: $size-regular;
-            }
-        }
-    }
-
     &--section {
         overflow: hidden;
         padding: 60px;
@@ -104,6 +83,28 @@ body {
         .description {
             font-size: $size-regular;
             margin: 30px;
+        }
+
+        // MAIN STYLES ////////////////////////////////////////////////////
+        &.main {
+            height: 800px;
+            padding-top: 300px;
+            width: 100%;
+
+            .main-message {
+                color: $white;
+                text-align: center;
+
+                &-big {
+                    font-family: 'Raleway-Medium';
+                    font-size: $size-jumbo;
+                }
+
+                &-small {
+                    font-family: 'Raleway-Regular';
+                    font-size: $size-regular;
+                }
+            }
         }
 
         // ABOUT STYLES ////////////////////////////////////////////////////

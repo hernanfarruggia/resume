@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="charset" charset="utf-8" />
+
+        <title>Hernan Farruggia Resume</title>
+
+        <link rel="stylesheet" type="text/css" href="./css/styles.css" />
+    </head>
+    <body>
+
+        <div class="container">
+
+            <div class="header">
+                <div class="header--logo">
+                    Hernán Farruggia
+                </div>
+                <ul class="header--menu">
+                    <li class="item">
+                        <a href="#about" class="link">About</a>
+                    </li>
+                    <li class="item">
+                        <a href="#education" class="link">Education</a>
+                    </li>
+                    <li class="item">
+                        <a href="#work" class="link">Work experience</a>
+                    </li>
+                    <li class="item">
+                        <a href="#skills" class="link">Skills</a>
+                    </li>
+                    <li class="item">
+                        <a href="#portfolio" class="link">Portfolio</a>
+                    </li>
+                    <li class="item">
+                        <a href="#contact" class="link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="content">
+                <div id="main" class="content--section main">
+                    <div class="main-message">
+                        <span class="main-message-big">
+                            Front End Developer
+                        </span>
+                        <br>
+                        <span class="main-message-small">
+                            With some Back End knowleadge :)
+                        </span>
+                    </div>
+                </div>
+
+                <div id="about" class="content--section about">
+                    <div class="title">
+                        About Me
+                    </div>
+                    <div class="content--section-data">
+
+                        <div class="content--section-data-block">
+                            <div class="description">
+                                <p>
+                                    I like to think about myself as an a proactive
+                                    person, not only in my work, but in my life too.
+
+                                    I love to do sports, travel, hang out with friends
+                                    and family, play music and I really enjoy to spend time
+                                    with my dog.
+                                </p>
+                                <p>
+                                    I've always been autodidact, like to read articles,
+                                    tutorials and books about things that create
+                                    intrigue in me.
+                                </p>
+                                <p>
+
+                                    As a programmer I should say that almost everything
+                                    that I know I learned it from try new stuffs, reading
+                                    a lot, sometimes by try and error, and more important,
+                                    working. Work is the biggest school. That's because
+                                    I love to work, because I love to learn, I need to
+                                    keep my mind learning new things constantly.
+                                </p>
+                                <p>
+                                    Speaking about work, I'm a very organized person
+                                    and like to be part of teams.
+
+                                    As a professional, I'm developing my carreer day by day
+                                    trying to stay up to date with last technologies
+                                    and improving my knowleadges constantly as possible.
+                                </p>
+                                <p>
+                                    I'm currently working at Globant Rosario
+                                    offices as a Web UI Developer, I really love
+                                    what I do and my goal is keep growing as a
+                                    professional and develop my skills as far as
+                                    possible.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="content--section-image">
+                        <img class="perfil" src="img/hernan.jpg" />
+                    </div>
+                </div>
+
+                <div id="education" class="content--section education">
+                    <div class="title">
+                        Education
+                    </div>
+                    <div class="content--section-data">
+
+                        <div class="content--section-data-block">
+                            <div class="subtitle">
+                                Computer System Analyst
+                                <br>
+                                <span class="subtitle_small">Belgrano Institute Rosario</span>
+                            </div>
+                            <div class="date">
+                                [ Jan 2007 - Dec 2009 ]
+                            </div>
+                            <div class="description">
+                                <p>
+                                    I've study for 3 years the Computer System Analyst carreer
+                                    to improve my knowleadges and create a solid and strong
+                                    background of skills.
+                                </p>
+                                <p>
+
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="content--section-data-block">
+                            <div class="subtitle">
+                                Communication, Art & Design High School
+                                <br>
+                                <span class="subtitle_small">Leonidas Gambartes High School Rosario</span>
+                            </div>
+                            <div class="date">
+                                [ Jan 2002 - Dec 2006 ]
+                            </div>
+                            <div class="description">
+                                <p>
+                                    I've study about Art & Design on my high school.
+                                    That gave me the base that help me to develop
+                                    my designer side and encourage me to start create
+                                    user interfaces, mocks, wireframes and web designs
+                                    prototypes from an early age.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="content--section-image">
+                        <img src="img/graduate_256.png" />
+                    </div>
+                </div>
+
+                <div id="work" class="content--section work">
+                    <div class="title">
+                        Work Experience
+                    </div>
+                    <div class="content--section-data">
+
+                        <div class="content--section-data-block">
+                            <div class="subtitle">
+                                Front End Developer
+                                <br>
+                                <span class="subtitle_small">Globant</span>
+                            </div>
+                            <div class="date">
+                                [ Jun 2014 - Present ]
+                            </div>
+                            <div class="description">
+                                <p>
+                                    I've developed web apps with mobile adapt using
+                                    many different technologies like React JS, jQuery,
+                                    JavaScript, HTML 5, CSS 3, SASS, etc.
+                                </p>
+                                <p>
+                                    I worked in projects for companies like:
+                                    <br><br>
+                                    - Soutwhest Airlines
+                                    <br>
+                                    - Mindshare
+                                    <br>
+                                    - Pearson Editorial
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="content--section-data-block">
+                            <div class="subtitle">
+                                Full Stack Developer & Designer
+                                <br>
+                                <span class="subtitle_small">Estudio Syncro</span>
+                            </div>
+                            <div class="date">
+                                [ Sep 2011 - Jun 2014 ]
+                            </div>
+                            <div class="description">
+                                <p>
+                                    Websites and app devlopment. I've play different
+                                    roles during this period, since Busines Alanlyst,
+                                    Designer or Developer to implementation and management.
+                                </p>
+                                <p>
+                                    Working as a freelancer I've improved my skills
+                                    on many different fields, and learn to develop
+                                    the entire process of a project.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="content--section-data-block">
+                            <div class="subtitle">
+                                PHP Programmer
+                                <br>
+                                <span class="subtitle_small">7L Freight</span>
+                            </div>
+                            <div class="date">
+                                [ Oct 2010 - Apr 2012 ]
+                            </div>
+                            <div class="description">
+                                <p>
+                                    PHP and JavasScrip Developer. My work was to
+                                    create Web Services connections to read info
+                                    from external servers that will be used later
+                                    by our system to perfom internal functionalities.
+                                </p>
+                                <p>
+                                    Also used MySql databases and perform different
+                                    UI scripts and updates on the website and
+                                    internal tools.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="content--section-data-block">
+                            <div class="subtitle">
+                                Web Developer
+                                <br>
+                                <span class="subtitle_small">SoyTuAuto.com</span>
+                            </div>
+                            <div class="date">
+                                [ Dec 2009 - Oct 2010 ]
+                            </div>
+                            <div class="description">
+                                <p>
+                                    I was in charge of the development and
+                                    maintenance of the main website. I've worked
+                                    with technologies like PHP, JavaScript,
+                                    MySql and Apache Server.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="content--section-image">
+                        <img src="img/work_256.png" />
+                    </div>
+                </div>
+
+                <div id="skills" class="content--section skills">
+                    <div class="title">
+                        Skills rates
+                    </div>
+                    <div class="content--section-data">
+
+                        <div class="content--section-data-block">
+                            <div class="subtitle">
+                                Front End Skills
+                            </div>
+                            <div class="skills-block">
+                                <div class="skills-block-item">
+                                    <div class="skills-block-item_title">
+                                        Javascript
+                                    </div>
+                                    <ul class="skills-block-item_stars">
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-gray"></li>
+                                        <li class="star star-gray"></li>
+                                    </ul>
+                                </div>
+                                <div class="skills-block-item">
+                                    <div class="skills-block-item_title">
+                                        React JS
+                                    </div>
+                                    <ul class="skills-block-item_stars">
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-gray"></li>
+                                        <li class="star star-gray"></li>
+                                        <li class="star star-gray"></li>
+                                    </ul>
+                                </div>
+                                <div class="skills-block-item">
+                                    <div class="skills-block-item_title">
+                                        Angular JS
+                                    </div>
+                                    <ul class="skills-block-item_stars">
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-gray"></li>
+                                        <li class="star star-gray"></li>
+                                        <li class="star star-gray"></li>
+                                        <li class="star star-gray"></li>
+                                        <li class="star star-gray"></li>
+                                    </ul>
+                                </div>
+                                <div class="skills-block-item">
+                                    <div class="skills-block-item_title">
+                                        jQuery
+                                    </div>
+                                    <ul class="skills-block-item_stars">
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-gray"></li>
+                                        <li class="star star-gray"></li>
+                                        <li class="star star-gray"></li>
+                                        <li class="star star-gray"></li>
+                                        <li class="star star-gray"></li>
+                                    </ul>
+                                </div>
+                                <div class="skills-block-item">
+                                    <div class="skills-block-item_title">
+                                        Gulp
+                                    </div>
+                                    <ul class="skills-block-item_stars">
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-gray"></li>
+                                        <li class="star star-gray"></li>
+                                        <li class="star star-gray"></li>
+                                        <li class="star star-gray"></li>
+                                        <li class="star star-gray"></li>
+                                        <li class="star star-gray"></li>
+                                    </ul>
+                                </div>
+                                <div class="skills-block-item">
+                                    <div class="skills-block-item_title">
+                                        HTML
+                                    </div>
+                                    <ul class="skills-block-item_stars">
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-gray"></li>
+                                    </ul>
+                                </div>
+                                <div class="skills-block-item">
+                                    <div class="skills-block-item_title">
+                                        CSS
+                                    </div>
+                                    <ul class="skills-block-item_stars">
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-gray"></li>
+                                        <li class="star star-gray"></li>
+                                    </ul>
+                                </div>
+                                <div class="skills-block-item">
+                                    <div class="skills-block-item_title">
+                                        SASS
+                                    </div>
+                                    <ul class="skills-block-item_stars">
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-gray"></li>
+                                        <li class="star star-gray"></li>
+                                        <li class="star star-gray"></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                            <div class="content--section-data-block">
+                                <div class="subtitle">
+                                    Back End Skills
+                                </div>
+                                <div class="skills-block">
+                                    <div class="skills-block-item">
+                                        <div class="skills-block-item_title">
+                                            PHP
+                                        </div>
+                                        <ul class="skills-block-item_stars">
+                                            <li class="star star-yellow"></li>
+                                            <li class="star star-yellow"></li>
+                                            <li class="star star-yellow"></li>
+                                            <li class="star star-yellow"></li>
+                                            <li class="star star-yellow"></li>
+                                            <li class="star star-yellow"></li>
+                                            <li class="star star-yellow"></li>
+                                            <li class="star star-gray"></li>
+                                            <li class="star star-gray"></li>
+                                            <li class="star star-gray"></li>
+                                        </ul>
+                                    </div>
+                                    <div class="skills-block-item">
+                                        <div class="skills-block-item_title">
+                                            Codeigniter
+                                        </div>
+                                        <ul class="skills-block-item_stars">
+                                            <li class="star star-yellow"></li>
+                                            <li class="star star-yellow"></li>
+                                            <li class="star star-yellow"></li>
+                                            <li class="star star-yellow"></li>
+                                            <li class="star star-yellow"></li>
+                                            <li class="star star-yellow"></li>
+                                            <li class="star star-yellow"></li>
+                                            <li class="star star-gray"></li>
+                                            <li class="star star-gray"></li>
+                                            <li class="star star-gray"></li>
+                                        </ul>
+                                    </div>
+                                    <div class="skills-block-item">
+                                        <div class="skills-block-item_title">
+                                            MySql
+                                        </div>
+                                        <ul class="skills-block-item_stars">
+                                            <li class="star star-yellow"></li>
+                                            <li class="star star-yellow"></li>
+                                            <li class="star star-yellow"></li>
+                                            <li class="star star-yellow"></li>
+                                            <li class="star star-yellow"></li>
+                                            <li class="star star-yellow"></li>
+                                            <li class="star star-gray"></li>
+                                            <li class="star star-gray"></li>
+                                            <li class="star star-gray"></li>
+                                            <li class="star star-gray"></li>
+                                        </ul>
+                                    </div>
+                                    <div class="skills-block-item">
+                                        <div class="skills-block-item_title">
+                                            Apache
+                                        </div>
+                                        <ul class="skills-block-item_stars">
+                                            <li class="star star-yellow"></li>
+                                            <li class="star star-yellow"></li>
+                                            <li class="star star-yellow"></li>
+                                            <li class="star star-yellow"></li>
+                                            <li class="star star-yellow"></li>
+                                            <li class="star star-gray"></li>
+                                            <li class="star star-gray"></li>
+                                            <li class="star star-gray"></li>
+                                            <li class="star star-gray"></li>
+                                            <li class="star star-gray"></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                        <div class="content--section-data-block">
+                            <div class="subtitle">
+                                Development Tools
+                            </div>
+                            <div class="skills-block">
+                                <div class="skills-block-item">
+                                    <div class="skills-block-item_title">
+                                        Git
+                                    </div>
+                                    <ul class="skills-block-item_stars">
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-gray"></li>
+                                        <li class="star star-gray"></li>
+                                        <li class="star star-gray"></li>
+                                    </ul>
+                                </div>
+                                <div class="skills-block-item">
+                                    <div class="skills-block-item_title">
+                                        Agile Methodologies
+                                    </div>
+                                    <ul class="skills-block-item_stars">
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-gray"></li>
+                                        <li class="star star-gray"></li>
+                                        <li class="star star-gray"></li>
+                                    </ul>
+                                </div>
+                                <div class="skills-block-item">
+                                    <div class="skills-block-item_title">
+                                        Scrum
+                                    </div>
+                                    <ul class="skills-block-item_stars">
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-gray"></li>
+                                        <li class="star star-gray"></li>
+                                        <li class="star star-gray"></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="content--section-data-block">
+                            <div class="subtitle">
+                                Design Tools
+                            </div>
+                            <div class="skills-block">
+                                <div class="skills-block-item">
+                                    <div class="skills-block-item_title">
+                                        Adobe Photoshop
+                                    </div>
+                                    <ul class="skills-block-item_stars">
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-gray"></li>
+                                        <li class="star star-gray"></li>
+                                    </ul>
+                                </div>
+                                <div class="skills-block-item">
+                                    <div class="skills-block-item_title">
+                                        Adobe Illustrator
+                                    </div>
+                                    <ul class="skills-block-item_stars">
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-gray"></li>
+                                        <li class="star star-gray"></li>
+                                        <li class="star star-gray"></li>
+                                        <li class="star star-gray"></li>
+                                    </ul>
+                                </div>
+                                <div class="skills-block-item">
+                                    <div class="skills-block-item_title">
+                                        Wireframes / Mockups
+                                    </div>
+                                    <ul class="skills-block-item_stars">
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-gray"></li>
+                                        <li class="star star-gray"></li>
+                                        <li class="star star-gray"></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="content--section-data-block">
+                            <div class="subtitle">
+                                Languages
+                            </div>
+                            <div class="skills-block">
+                                <div class="skills-block-item">
+                                    <div class="skills-block-item_title">
+                                        Spanish
+                                    </div>
+                                    <ul class="skills-block-item_stars">
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-yellow"></li>
+                                    </ul>
+                                </div>
+                                <div class="skills-block-item">
+                                    <div class="skills-block-item_title">
+                                        English
+                                    </div>
+                                    <ul class="skills-block-item_stars">
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-gray"></li>
+                                        <li class="star star-gray"></li>
+                                    </ul>
+                                </div>
+                                <div class="skills-block-item">
+                                    <div class="skills-block-item_title">
+                                        Portuguese
+                                    </div>
+                                    <ul class="skills-block-item_stars">
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-yellow"></li>
+                                        <li class="star star-gray"></li>
+                                        <li class="star star-gray"></li>
+                                        <li class="star star-gray"></li>
+                                        <li class="star star-gray"></li>
+                                        <li class="star star-gray"></li>
+                                        <li class="star star-gray"></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="content--section-image">
+                        <img src="img/skills_256.png" />
+                    </div>
+                </div>
+
+                <div id="portfolio" class="content--section portfolio">
+                    <div class="title">
+                        Portfolio
+                    </div>
+                    <div class="content--section-data">
+
+                        <div class="content--section-data-block">
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="img/portfolio/hernan-farruggia.png" />
+                                </div>
+                                <div class="card-description">
+                                    <div class="card-description-title">
+                                        Personal Site
+                                    </div>
+                                    Lorem ipsum dolor sir amet is a simply
+                                    dummy text to simulate real text.
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="img/portfolio/metalurgica-lanza.png" />
+                                </div>
+                                <div class="card-description">
+                                    <div class="card-description-title">
+                                        Metalurgica Lanza
+                                    </div>
+                                    Lorem ipsum dolor sir amet is a simply
+                                    dummy text to simulate real text.
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="img/portfolio/fantoni-arte.png" />
+                                </div>
+                                <div class="card-description">
+                                    <div class="card-description-title">
+                                        Fantoni Arte
+                                    </div>
+                                    Lorem ipsum dolor sir amet is a simply
+                                    dummy text to simulate real text.
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="img/portfolio/muscle-concept.png" />
+                                </div>
+                                <div class="card-description">
+                                    <div class="card-description-title">
+                                        Muscle Concept
+                                    </div>
+                                    Lorem ipsum dolor sir amet is a simply
+                                    dummy text to simulate real text.
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="img/portfolio/estudio-syncro.png" />
+                                </div>
+                                <div class="card-description">
+                                    <div class="card-description-title">
+                                        Estudio Syncro
+                                    </div>
+                                    Lorem ipsum dolor sir amet is a simply
+                                    dummy text to simulate real text.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="contact" class="content--section contact">
+                    <div class="title">
+                        Contact Me
+                    </div>
+                    <div class="content--section-data center">
+
+                        <div class="content--section-data-block">
+                            <form class="form">
+                                <input type="text" class="input" name="name" placeholder="Name" />
+                                <input type="text" class="input" name="subject" placeholder="Subject" />
+                                <textarea class="textarea" name="message" rows="8" cols="40" placeholder="Please insert your message here! ;)"></textarea>
+                                <button class="button" name="button">Send!</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="footer">
+
+            </div>
+
+        </div>
+
+        <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+        <script src="lib/scripts.js"></script>
+        <script src="lib/app.js"></script>
+
+    </body>
+</html>
