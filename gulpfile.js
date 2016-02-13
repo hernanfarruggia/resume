@@ -2,6 +2,7 @@
 var browserify = require('browserify');
 var express = require('express');
 var gulp = require('gulp');
+var gutil = require('gulp-util');
 var concat = require('gulp-concat');
 var sass = require('gulp-sass');
 var source = require('vinyl-source-stream');
@@ -19,7 +20,8 @@ var paths = {
     core: {
         base:   './app/',
         js:     './app/lib/scripts.js',
-        react:  './app/lib/app.js',
+        app:    './app/lib/app.js',
+        react:  './app/lib/**/*.js',
         css:    './app/styles/**/*.scss',
         images: './app/images/**/*.*',
         fonts:  './app/fonts/**/*.ttf'
@@ -55,7 +57,7 @@ gulp.task('fonts', function () {
 });
 
 gulp.task('compile', function() {
-    return browserify(paths.core.react)
+    return browserify(paths.core.app)
         .transform(reactify)
         .bundle()
         .on('error', handleErrors)
@@ -71,7 +73,9 @@ gulp.task('watch', function () {
 });
 
 gulp.task('default', ['styles', 'js', 'compile', 'images', 'fonts', 'server', 'watch'], function() {
-    console.log('[SERVER RUNNING] Go to http://localhost:5555');
+    gutil.log('--------------------------------------------');
+    gutil.log(gutil.colors.green('[SERVER RUNNING]'), 'Go to http://localhost:5555');
+    gutil.log('--------------------------------------------');
 });
 
 // ERROR HANDLER

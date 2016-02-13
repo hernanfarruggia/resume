@@ -28,7 +28,7 @@ var ContentSection = React.createClass ({
 
     getClass: function () {
         var classes = {
-            'content-section': true
+            'content--section': true
         };
 
         classes[this.props.className] = (this.props.className);

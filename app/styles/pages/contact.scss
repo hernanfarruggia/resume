@@ -1,0 +1,64 @@
+@import "./../variables";
+
+.content--section {
+    &.contact {
+        background-color: $gray-800;
+
+        .title {
+            color: $white;
+        }
+
+        .content--section-data {
+            float: inherit;
+        }
+
+        .form {
+            text-align: center;
+
+            .input {
+                border: none;
+                clear: both;
+                color: $gray-800;
+                font-family: 'Raleway-Regular';
+                font-size: $size-medium;
+                margin: 10px;
+                padding: 10px;
+                width: 100%;
+            }
+
+            .textarea {
+                border: none;
+                clear: both;
+                color: $gray-800;
+                font-family: 'Raleway-Regular';
+                font-size: $size-medium;
+                margin: 10px;
+                padding: 10px;
+                width: 100%;
+            }
+
+            .button {
+                background-color: $green-500;
+                border: none;
+                clear: both;
+                color: $gray-800;
+                cursor: pointer;
+                font-family: 'Raleway-Regular';
+                font-size: $size-medium;
+                margin: 10px;
+                padding: 10px;
+                width: 100%;
+
+                &:hover {
+                    background-color: $green-400;
+                    color: $gray-900;
+                }
+
+                &:active {
+                    background-color: $green-500;
+                    color: $gray-800;
+                }
+            }
+        }
+    }
+}

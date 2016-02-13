@@ -1,0 +1,38 @@
+@import "./../variables";
+
+.header {
+    background: rgba(0, 0, 0, $opacity);
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    text-shadow: 1px 1px 1px $black;
+    width: 100%;
+    z-index: 2;
+
+    &--logo {
+        color: $white;
+        float: left;
+        font-size: $size-medium;
+        margin: 20px 0 0 20px;
+    }
+
+    &--menu {
+        float: right;
+        margin: 30px 20px 0 0;
+
+        .item {
+            margin: 0 30px;
+
+            .link {
+                color: $white;
+                text-decoration: none;
+                transition: all $transitionTime $transitionType;
+
+                &:hover {
+                    text-shadow: 1px 1px 5px $black;
+                }
+            }
+        }
+    }
+}

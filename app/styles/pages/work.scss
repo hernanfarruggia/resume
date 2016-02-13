@@ -1,0 +1,27 @@
+@import "./../variables";
+
+.content--section {
+    &.work {
+        background-color: $blue-800;
+
+        .title {
+            color: $white;
+        }
+
+        .subtitle {
+            color: $indigo-900;
+
+            &_small {
+                color: $blue-300;
+            }
+        }
+
+        .date {
+            color: $blue-100;
+        }
+
+        .description {
+            color: $white;
+        }
+    }
+}

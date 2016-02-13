@@ -1,8 +1,12 @@
 @import "./reset";
 @import "./variables";
 
-
-.center {
-    margin-left: auto;
-    margin-right: auto;
-}
+@import "./components/content";
+@import "./components/header";
+    
+@import "./pages/main";
+@import "./pages/about";
+@import "./pages/education";
+@import "./pages/work";
+@import "./pages/skills";
+@import "./pages/contact";

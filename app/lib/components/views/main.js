@@ -12,7 +12,7 @@ var Main = React.createClass ({
                     <span className="main-message-big">
                         Front End Developer
                     </span>
-                    <br>
+                    <br />
                     <span className="main-message-small">
                         With some Back End knowleadge :)
                     </span>

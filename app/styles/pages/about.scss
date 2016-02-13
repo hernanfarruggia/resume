@@ -1,0 +1,27 @@
+@import "./../variables";
+
+.content--section {
+    &.about {
+        background-color: $gray-800;
+
+        .title {
+            color: $white;
+        }
+
+        .subtitle {
+
+            &_small {
+                color: $gray-200;
+            }
+        }
+
+        .description {
+            color: $gray-500;
+        }
+
+        .perfil {
+            border-radius: 50%;
+            width: 60%;
+        }
+    }
+}
