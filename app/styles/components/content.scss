@@ -1,119 +1,48 @@
 @import "./../variables";
 
-.content {
+.section {
+    overflow: hidden;
+    padding: 60px;
     width: 100%;
 
-    &--section {
-        overflow: hidden;
-        padding: 60px;
-        width: 100%;
+    .title {
+        font-family: 'Raleway-Medium';
+        font-size: $size-extra-large;
+        margin-bottom: 50px;
+        text-align: center;
+    }
 
-        .title {
-            font-family: 'Raleway-Medium';
-            font-size: $size-extra-large;
-            margin-bottom: 50px;
-            text-align: center;
-        }
+    .subtitle {
+        font-size: $size-medium;
+        margin-bottom: 10px;
 
-        .subtitle {
-            font-size: $size-medium;
-            margin-bottom: 10px;
-
-            &_small {
-                font-size: $size-regular;
-            }
-        }
-
-        .date {
+        &_small {
             font-size: $size-regular;
         }
+    }
 
-        .description {
-            font-size: $size-regular;
-            margin: 30px;
-        }        
+    .date {
+        font-size: $size-regular;
+    }
 
-        // PORTFOLIO STYLES ////////////////////////////////////////////////////
-        &.portfolio {
-            background-color: $teal-500;
+    .description {
+        font-size: $size-regular;
+        margin: 30px;
+    }
 
-            .title {
-                color: $white;
-            }
+    &-data {
+        float: left;
+        width: 60%;
 
-            .content--section-data {
-                width: 100%;
-
-                &-block {
-                    text-align: center;
-                }
-            }
-
-            .card {
-                transition: all $transitionTime $transitionType;
-                background-color: $white;
-                border-radius: 3px;
-                box-shadow: 0 2px 2px rgba(0, 0, 0, $opacity);
-                display: inline-block;
-                height: 400px;
-                margin: 0 60px 60px 0;
-                overflow: hidden;
-                width: 300px;
-
-                &:hover {
-                    transform: scale(1.1) ;
-                }
-
-                &-image {
-                    background-color: $black;
-                    height: 300px;
-                    position: relative;
-                    width: 300px;
-
-                    img {
-                        -webkit-transition: opacity $transitionTime $transitionType;
-                        -moz-transition: opacity $transitionTime $transitionType;
-                        -ms-transition: opacity $transitionTime $transitionType;
-                        opacity: $opacity;
-
-                        &:hover {
-                            -webkit-transition: opacity $transitionTime $transitionType;
-                            -moz-transition: opacity $transitionTime $transitionType;
-                            -ms-transition: opacity $transitionTime $transitionType;
-                             opacity: 1;
-                        }
-                    }
-                }
-
-                &-description {
-                    color: $gray-500;
-                    font-size: $size-small;
-                    padding: 20px;
-
-                    &-title {
-                        color: $gray-800;
-                        font-size: $size-regular;
-                        margin-bottom: 15px;
-                    }
-                }
-
-            }
+        &-block {
+            margin-bottom: 60px;
         }
+    }
 
-        &-data {
-            float: left;
-            width: 60%;
-
-            &-block {
-                margin-bottom: 60px;
-            }
-        }
-
-        &-image {
-            float: left;
-            text-align: center;
-            padding: 50px 0;
-            width: 40%;
-        }
+    &-image {
+        float: left;
+        text-align: center;
+        padding: 50px 0;
+        width: 40%;
     }
 }

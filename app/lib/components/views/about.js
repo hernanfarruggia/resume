@@ -2,25 +2,25 @@
 var React = require('react');
 
 // LAYOUT
-var ContentSection = require('../layout/content-section');
+var Section = require('../layout/section');
 
 var About = React.createClass ({
     render: function() {
         return (
-            <ContentSection {...this.getProps()}>
-                <div className="title">
+            <Section {...this.getProps()}>
+                <h2 className="title">
                     About Me
-                </div>
-                <div className="content--section-data">
+                </h2>
+                <div className="section-data">
 
-                    <div className="content--section-data-block">
+                    <div className="section-data-block">
                         <div className="description">
                             <p>
                                 I like to think about myself as an a proactive
                                 person, not only in my work, but in my life too.
 
                                 I love to do sports, travel, hang out with friends
-                                and family, play music and I really enjoy to spend time
+                                and family, play music and I really enjoy spending time
                                 with my dog.
                             </p>
                             <p>
@@ -31,9 +31,9 @@ var About = React.createClass ({
                             <p>
 
                                 As a programmer I should say that almost everything
-                                that I know I learned it from try new stuffs, reading
+                                that I know I&#39;ve learned it from try new stuffs, reading
                                 a lot, sometimes by try and error, and more important,
-                                working. Work is the biggest school. That&#39;s because
+                                working. Work is the biggest school. That&#39;s why
                                 I love to work, because I love to learn, I need to
                                 keep my mind learning new things constantly.
                             </p>
@@ -46,7 +46,7 @@ var About = React.createClass ({
                                 and improving my knowleadges constantly as possible.
                             </p>
                             <p>
-                                I&#39;m currently working at Globant Rosario
+                                I&#39;m currently working at Global Logic Rosario&#39;s
                                 offices as a Web UI Developer, I really love
                                 what I do and my goal is keep growing as a
                                 professional and develop my skills as far as
@@ -56,10 +56,10 @@ var About = React.createClass ({
                     </div>
                 </div>
 
-                <div className="content--section-image">
+                <div className="section-image">
                     <img className="perfil" src="img/hernan.jpg" />
                 </div>
-            </ContentSection>
+            </Section>
         );
     },
 

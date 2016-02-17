@@ -2,18 +2,18 @@
 var React = require('react');
 
 // LAYOUT
-var ContentSection = require('../layout/content-section');
+var Section = require('../layout/section');
 
 var Education = React.createClass ({
     render: function() {
         return (
-            <ContentSection {...this.getProps()}>
-                <div className="title">
+            <Section {...this.getProps()}>
+                <h2 className="title">
                     Education
-                </div>
-                <div className="content--section-data">
+                </h2>
+                <div className="section-data">
 
-                    <div className="content--section-data-block">
+                    <div className="section-data-block">
                         <div className="subtitle">
                             Computer System Analyst
                             <br />
@@ -34,7 +34,7 @@ var Education = React.createClass ({
                         </div>
                     </div>
 
-                    <div className="content--section-data-block">
+                    <div className="section-data-block">
                         <div className="subtitle">
                             Communication, Art & Design High School
                             <br />
@@ -55,10 +55,10 @@ var Education = React.createClass ({
                     </div>
                 </div>
 
-                <div className="content--section-image">
+                <div className="section-image">
                     <img src="img/graduate_256.png" />
                 </div>
-            </ContentSection>
+            </Section>
         );
     },
 

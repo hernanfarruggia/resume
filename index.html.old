@@ -38,7 +38,7 @@
             </div>
 
             <div class="content">
-                <div id="main" class="content--section main">
+                <div id="main" class="section main">
                     <div class="main-message">
                         <span class="main-message-big">
                             Front End Developer
@@ -50,13 +50,13 @@
                     </div>
                 </div>
 
-                <div id="about" class="content--section about">
+                <div id="about" class="section about">
                     <div class="title">
                         About Me
                     </div>
-                    <div class="content--section-data">
+                    <div class="section-data">
 
-                        <div class="content--section-data-block">
+                        <div class="section-data-block">
                             <div class="description">
                                 <p>
                                     I like to think about myself as an a proactive
@@ -99,18 +99,18 @@
                         </div>
                     </div>
 
-                    <div class="content--section-image">
+                    <div class="section-image">
                         <img class="perfil" src="img/hernan.jpg" />
                     </div>
                 </div>
 
-                <div id="education" class="content--section education">
+                <div id="education" class="section education">
                     <div class="title">
                         Education
                     </div>
-                    <div class="content--section-data">
+                    <div class="section-data">
 
-                        <div class="content--section-data-block">
+                        <div class="section-data-block">
                             <div class="subtitle">
                                 Computer System Analyst
                                 <br>
@@ -131,7 +131,7 @@
                             </div>
                         </div>
 
-                        <div class="content--section-data-block">
+                        <div class="section-data-block">
                             <div class="subtitle">
                                 Communication, Art & Design High School
                                 <br>
@@ -152,18 +152,18 @@
                         </div>
                     </div>
 
-                    <div class="content--section-image">
+                    <div class="section-image">
                         <img src="img/graduate_256.png" />
                     </div>
                 </div>
 
-                <div id="work" class="content--section work">
+                <div id="work" class="section work">
                     <div class="title">
                         Work Experience
                     </div>
-                    <div class="content--section-data">
+                    <div class="section-data">
 
-                        <div class="content--section-data-block">
+                        <div class="section-data-block">
                             <div class="subtitle">
                                 Front End Developer
                                 <br>
@@ -190,7 +190,7 @@
                             </div>
                         </div>
 
-                        <div class="content--section-data-block">
+                        <div class="section-data-block">
                             <div class="subtitle">
                                 Full Stack Developer & Designer
                                 <br>
@@ -213,7 +213,7 @@
                             </div>
                         </div>
 
-                        <div class="content--section-data-block">
+                        <div class="section-data-block">
                             <div class="subtitle">
                                 PHP Programmer
                                 <br>
@@ -237,7 +237,7 @@
                             </div>
                         </div>
 
-                        <div class="content--section-data-block">
+                        <div class="section-data-block">
                             <div class="subtitle">
                                 Web Developer
                                 <br>
@@ -257,18 +257,18 @@
                         </div>
                     </div>
 
-                    <div class="content--section-image">
+                    <div class="section-image">
                         <img src="img/work_256.png" />
                     </div>
                 </div>
 
-                <div id="skills" class="content--section skills">
+                <div id="skills" class="section skills">
                     <div class="title">
                         Skills rates
                     </div>
-                    <div class="content--section-data">
+                    <div class="section-data">
 
-                        <div class="content--section-data-block">
+                        <div class="section-data-block">
                             <div class="subtitle">
                                 Front End Skills
                             </div>
@@ -412,7 +412,7 @@
                             </div>
                         </div>
 
-                            <div class="content--section-data-block">
+                            <div class="section-data-block">
                                 <div class="subtitle">
                                     Back End Skills
                                 </div>
@@ -488,7 +488,7 @@
                                 </div>
                             </div>
 
-                        <div class="content--section-data-block">
+                        <div class="section-data-block">
                             <div class="subtitle">
                                 Development Tools
                             </div>
@@ -547,7 +547,7 @@
                             </div>
                         </div>
 
-                        <div class="content--section-data-block">
+                        <div class="section-data-block">
                             <div class="subtitle">
                                 Design Tools
                             </div>
@@ -606,7 +606,7 @@
                             </div>
                         </div>
 
-                        <div class="content--section-data-block">
+                        <div class="section-data-block">
                             <div class="subtitle">
                                 Languages
                             </div>
@@ -667,18 +667,18 @@
 
                     </div>
 
-                    <div class="content--section-image">
+                    <div class="section-image">
                         <img src="img/skills_256.png" />
                     </div>
                 </div>
 
-                <div id="portfolio" class="content--section portfolio">
+                <div id="portfolio" class="section portfolio">
                     <div class="title">
                         Portfolio
                     </div>
-                    <div class="content--section-data">
+                    <div class="section-data">
 
-                        <div class="content--section-data-block">
+                        <div class="section-data-block">
                             <div class="card">
                                 <div class="card-image">
                                     <img src="img/portfolio/hernan-farruggia.png" />
@@ -747,13 +747,13 @@
                     </div>
                 </div>
 
-                <div id="contact" class="content--section contact">
+                <div id="contact" class="section contact">
                     <div class="title">
                         Contact Me
                     </div>
-                    <div class="content--section-data center">
+                    <div class="section-data center">
 
-                        <div class="content--section-data-block">
+                        <div class="section-data-block">
                             <form class="form">
                                 <input type="text" class="input" name="name" placeholder="Name" />
                                 <input type="text" class="input" name="subject" placeholder="Subject" />

@@ -2,27 +2,34 @@
 var React = require('react');
 
 // LAYOUT
-var ContentSection = require('../layout/content-section');
+var Section = require('../layout/section');
 
 var Contact = React.createClass ({
     render: function() {
         return (
-            <ContentSection {...this.getProps()}>
-                <div className="title">
+            <Section {...this.getProps()}>
+                <h2 className="title">
                     Contact Me
-                </div>
-                <div className="content--section-data center">
+                </h2>
+                <div className="section-data">
 
-                    <div className="content--section-data-block">
-                        <form className="form">
-                            <input type="text" className="input" name="name" placeholder="Name" />
-                            <input type="text" className="input" name="subject" placeholder="Subject" />
-                            <textarea className="textarea" name="message" rows="8" cols="40" placeholder="Please insert your message here! ;)"></textarea>
-                            <button className="button" name="button">Send!</button>
-                        </form>
+                    <div className="section-data-block">
+                        <h3>Hernán Farruggia</h3>
+                        <div className="">
+                            hernan.farruggia@gmail.com
+                            <br />
+                            http://github.com/hernanfarruggia
+                            <br />
+                            +5493413214002
+                            <br />
+                            Rosario, Santa Fe, Argentina
+                        </div>
                     </div>
                 </div>
-            </ContentSection>
+                <div className="section-image">
+                    <img className="perfil" src="img/map.png" />
+                </div>
+            </Section>
         );
     },
 

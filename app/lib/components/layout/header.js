@@ -22,9 +22,6 @@ var Header = React.createClass ({
                         <a href="#skills" className="link">Skills</a>
                     </li>
                     <li className="item">
-                        <a href="#portfolio" className="link">Portfolio</a>
-                    </li>
-                    <li className="item">
                         <a href="#contact" className="link">Contact</a>
                     </li>
                 </ul>

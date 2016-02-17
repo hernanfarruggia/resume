@@ -2,29 +2,47 @@
 var React = require('react');
 
 // LAYOUT
-var ContentSection = require('../layout/content-section');
+var Section = require('../layout/section');
 
 var Work = React.createClass ({
     render: function() {
         return (
-            <ContentSection {...this.getProps()}>
-                <div className="title">
+            <Section {...this.getProps()}>
+                <h2 className="title">
                     Work Experience
-                </div>
-                <div className="content--section-data">
+                </h2>
+                <div className="section-data">
 
-                    <div className="content--section-data-block">
+                    <div className="section-data-block">
+                        <div className="subtitle">
+                            Front End Developer
+                            <br />
+                            <span className="subtitle_small">Global Logic Latin America</span>
+                        </div>
+                        <div className="date">
+                            [ Aug 2015 - Present ]
+                        </div>
+                        <div className="description">
+                            <p>
+                                I&#39;m developing apps as a part of a UI Team using Angular JS
+                                as a main development framework. Adding more challenges to 
+                                my career.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div className="section-data-block">
                         <div className="subtitle">
                             Front End Developer
                             <br />
                             <span className="subtitle_small">Globant</span>
                         </div>
                         <div className="date">
-                            [ Jun 2014 - Present ]
+                            [ Jun 2014 - Aug 2015 ]
                         </div>
                         <div className="description">
                             <p>
-                                I've developed web apps with mobile adapt using
+                                I&#39;ve developed web apps with mobile adapt using
                                 many different technologies like React JS, jQuery,
                                 JavaScript, HTML 5, CSS 3, SASS, etc.
                             </p>
@@ -40,7 +58,7 @@ var Work = React.createClass ({
                         </div>
                     </div>
 
-                    <div className="content--section-data-block">
+                    <div className="section-data-block">
                         <div className="subtitle">
                             Full Stack Developer & Designer
                             <br />
@@ -51,19 +69,19 @@ var Work = React.createClass ({
                         </div>
                         <div className="description">
                             <p>
-                                Websites and app devlopment. I've play different
+                                Websites and app devlopment. I&#39;ve play different
                                 roles during this period, since Busines Alanlyst,
                                 Designer or Developer to implementation and management.
                             </p>
                             <p>
-                                Working as a freelancer I've improved my skills
+                                Working as a freelancer I&#39;ve improved my skills
                                 on many different fields, and learn to develop
                                 the entire process of a project.
                             </p>
                         </div>
                     </div>
 
-                    <div className="content--section-data-block">
+                    <div className="section-data-block">
                         <div className="subtitle">
                             PHP Programmer
                             <br />
@@ -87,7 +105,7 @@ var Work = React.createClass ({
                         </div>
                     </div>
 
-                    <div className="content--section-data-block">
+                    <div className="section-data-block">
                         <div className="subtitle">
                             Web Developer
                             <br />
@@ -99,7 +117,7 @@ var Work = React.createClass ({
                         <div className="description">
                             <p>
                                 I was in charge of the development and
-                                maintenance of the main website. I've worked
+                                maintenance of the main website. I&#39;ve worked
                                 with technologies like PHP, JavaScript,
                                 MySql and Apache Server.
                             </p>
@@ -107,10 +125,10 @@ var Work = React.createClass ({
                     </div>
                 </div>
 
-                <div className="content--section-image">
+                <div className="section-image">
                     <img src="img/work_256.png" />
                 </div>
-            </ContentSection>
+            </Section>
         );
     },
 

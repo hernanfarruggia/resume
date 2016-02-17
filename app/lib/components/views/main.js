@@ -2,22 +2,16 @@
 var React = require('react');
 
 // LAYOUT
-var ContentSection = require('../layout/content-section');
+var Section = require('../layout/section');
 
 var Main = React.createClass ({
     render: function() {
         return (
-            <ContentSection {...this.getProps()}>
+            <Section {...this.getProps()}>
                 <div className="main-message">
-                    <span className="main-message-big">
-                        Front End Developer
-                    </span>
-                    <br />
-                    <span className="main-message-small">
-                        With some Back End knowleadge :)
-                    </span>
+                    <h1>Front End Developer</h1>
                 </div>
-            </ContentSection>
+            </Section>
         );
     },
 

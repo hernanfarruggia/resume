@@ -19,9 +19,11 @@
 
     &--menu {
         float: right;
+        list-style-type: none;
         margin: 30px 20px 0 0;
 
         .item {
+            display: inline-block;
             margin: 0 30px;
 
             .link {

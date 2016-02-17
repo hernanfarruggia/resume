@@ -18,13 +18,14 @@ var paths = {
         fonts:  './fonts/'
     },
     core: {
-        base:   './app/',
-        js:     './app/lib/scripts.js',
-        app:    './app/lib/app.js',
-        react:  './app/lib/**/*.js',
-        css:    './app/styles/**/*.scss',
-        images: './app/images/**/*.*',
-        fonts:  './app/fonts/**/*.ttf'
+        base:           './app/',
+        js:             './app/lib/scripts.js',
+        app:            './app/lib/app.js',
+        react:          './app/lib/**/*.js',
+        css:            './app/styles/**/*.scss',
+        cssVendors:     './app/styles/vendors/**/*',
+        images:         './app/images/**/*.*',
+        fonts:          './app/fonts/**/*.ttf'
     }
 };
 
@@ -38,6 +39,11 @@ gulp.task('styles', function () {
     gulp.src(paths.core.css)
         .pipe(sass())
         .pipe(concat('styles.css'))
+        .pipe(gulp.dest(paths.build.css));
+});
+
+gulp.task('cssVendors', function () {
+    gulp.src(paths.core.cssVendors)
         .pipe(gulp.dest(paths.build.css));
 });
 
@@ -72,7 +78,7 @@ gulp.task('watch', function () {
     gulp.watch(paths.core.images, ['images']);
 });
 
-gulp.task('default', ['styles', 'js', 'compile', 'images', 'fonts', 'server', 'watch'], function() {
+gulp.task('default', ['cssVendors', 'styles', 'js', 'compile', 'images', 'fonts', 'server', 'watch'], function() {
     gutil.log('--------------------------------------------');
     gutil.log(gutil.colors.green('[SERVER RUNNING]'), 'Go to http://localhost:5555');
     gutil.log('--------------------------------------------');

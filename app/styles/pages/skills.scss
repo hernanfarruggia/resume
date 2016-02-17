@@ -1,6 +1,6 @@
 @import "./../variables";
 
-.content--section {
+.section {
     &.skills {
         background-color: $white;
 
@@ -41,9 +41,11 @@
 
                 &_stars {
                     float: left;
+                    list-style-type: none;
                     width: 65%;
 
                     .star{
+                        display: inline-block;
                         height: 24px;
                         margin: 5px;
                         width: 24px;

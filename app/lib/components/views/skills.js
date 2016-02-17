@@ -2,420 +2,78 @@
 var React = require('react');
 
 // LAYOUT
-var ContentSection = require('../layout/content-section');
+var Section = require('../layout/section');
+
+// COMPONENTS
+var Skill = require('../others/skill');
 
 var Skills = React.createClass ({
     render: function() {
         return (
-            <ContentSection {...this.getProps()}>
-                <div className="title">
+            <Section {...this.getProps()}>
+                <h2 className="title">
                     Skills rates
-                </div>
-                <div className="content--section-data">
+                </h2>
+                <div className="section-data">
 
-                    <div className="content--section-data-block">
+                    <div className="section-data-block">
                         <div className="subtitle">
                             Front End Skills
                         </div>
                         <div className="skills-block">
-                            <div className="skills-block-item">
-                                <div className="skills-block-item_title">
-                                    Javascript
-                                </div>
-                                <ul className="skills-block-item_stars">
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-gray"></li>
-                                    <li className="star star-gray"></li>
-                                </ul>
-                            </div>
-                            <div className="skills-block-item">
-                                <div className="skills-block-item_title">
-                                    React JS
-                                </div>
-                                <ul className="skills-block-item_stars">
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-gray"></li>
-                                    <li className="star star-gray"></li>
-                                    <li className="star star-gray"></li>
-                                </ul>
-                            </div>
-                            <div className="skills-block-item">
-                                <div className="skills-block-item_title">
-                                    Angular JS
-                                </div>
-                                <ul className="skills-block-item_stars">
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-gray"></li>
-                                    <li className="star star-gray"></li>
-                                    <li className="star star-gray"></li>
-                                    <li className="star star-gray"></li>
-                                    <li className="star star-gray"></li>
-                                </ul>
-                            </div>
-                            <div className="skills-block-item">
-                                <div className="skills-block-item_title">
-                                    jQuery
-                                </div>
-                                <ul className="skills-block-item_stars">
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-gray"></li>
-                                    <li className="star star-gray"></li>
-                                    <li className="star star-gray"></li>
-                                    <li className="star star-gray"></li>
-                                    <li className="star star-gray"></li>
-                                </ul>
-                            </div>
-                            <div className="skills-block-item">
-                                <div className="skills-block-item_title">
-                                    Gulp
-                                </div>
-                                <ul className="skills-block-item_stars">
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-gray"></li>
-                                    <li className="star star-gray"></li>
-                                    <li className="star star-gray"></li>
-                                    <li className="star star-gray"></li>
-                                    <li className="star star-gray"></li>
-                                    <li className="star star-gray"></li>
-                                </ul>
-                            </div>
-                            <div className="skills-block-item">
-                                <div className="skills-block-item_title">
-                                    HTML
-                                </div>
-                                <ul className="skills-block-item_stars">
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-gray"></li>
-                                </ul>
-                            </div>
-                            <div className="skills-block-item">
-                                <div className="skills-block-item_title">
-                                    CSS
-                                </div>
-                                <ul className="skills-block-item_stars">
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-gray"></li>
-                                    <li className="star star-gray"></li>
-                                </ul>
-                            </div>
-                            <div className="skills-block-item">
-                                <div className="skills-block-item_title">
-                                    SASS
-                                </div>
-                                <ul className="skills-block-item_stars">
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-gray"></li>
-                                    <li className="star star-gray"></li>
-                                    <li className="star star-gray"></li>
-                                </ul>
-                            </div>
+
+                            <Skill title="Javascript" stars="8" />
+                            <Skill title="React JS" stars="7" />
+                            <Skill title="Angular JS" stars="6" />
+                            <Skill title="jQuery" stars="5" />
+                            <Skill title="Gulp" stars="8" />
+                            <Skill title="HTML" stars="9" />
+                            <Skill title="CSS" stars="8" />
+                            <Skill title="SASS" stars="7" />
                         </div>
                     </div>
 
-                        <div className="content--section-data-block">
-                            <div className="subtitle">
-                                Back End Skills
-                            </div>
-                            <div className="skills-block">
-                                <div className="skills-block-item">
-                                    <div className="skills-block-item_title">
-                                        PHP
-                                    </div>
-                                    <ul className="skills-block-item_stars">
-                                        <li className="star star-yellow"></li>
-                                        <li className="star star-yellow"></li>
-                                        <li className="star star-yellow"></li>
-                                        <li className="star star-yellow"></li>
-                                        <li className="star star-yellow"></li>
-                                        <li className="star star-yellow"></li>
-                                        <li className="star star-yellow"></li>
-                                        <li className="star star-gray"></li>
-                                        <li className="star star-gray"></li>
-                                        <li className="star star-gray"></li>
-                                    </ul>
-                                </div>
-                                <div className="skills-block-item">
-                                    <div className="skills-block-item_title">
-                                        Codeigniter
-                                    </div>
-                                    <ul className="skills-block-item_stars">
-                                        <li className="star star-yellow"></li>
-                                        <li className="star star-yellow"></li>
-                                        <li className="star star-yellow"></li>
-                                        <li className="star star-yellow"></li>
-                                        <li className="star star-yellow"></li>
-                                        <li className="star star-yellow"></li>
-                                        <li className="star star-yellow"></li>
-                                        <li className="star star-gray"></li>
-                                        <li className="star star-gray"></li>
-                                        <li className="star star-gray"></li>
-                                    </ul>
-                                </div>
-                                <div className="skills-block-item">
-                                    <div className="skills-block-item_title">
-                                        MySql
-                                    </div>
-                                    <ul className="skills-block-item_stars">
-                                        <li className="star star-yellow"></li>
-                                        <li className="star star-yellow"></li>
-                                        <li className="star star-yellow"></li>
-                                        <li className="star star-yellow"></li>
-                                        <li className="star star-yellow"></li>
-                                        <li className="star star-yellow"></li>
-                                        <li className="star star-gray"></li>
-                                        <li className="star star-gray"></li>
-                                        <li className="star star-gray"></li>
-                                        <li className="star star-gray"></li>
-                                    </ul>
-                                </div>
-                                <div className="skills-block-item">
-                                    <div className="skills-block-item_title">
-                                        Apache
-                                    </div>
-                                    <ul className="skills-block-item_stars">
-                                        <li className="star star-yellow"></li>
-                                        <li className="star star-yellow"></li>
-                                        <li className="star star-yellow"></li>
-                                        <li className="star star-yellow"></li>
-                                        <li className="star star-yellow"></li>
-                                        <li className="star star-gray"></li>
-                                        <li className="star star-gray"></li>
-                                        <li className="star star-gray"></li>
-                                        <li className="star star-gray"></li>
-                                        <li className="star star-gray"></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-
-                    <div className="content--section-data-block">
+                    <div className="section-data-block">
                         <div className="subtitle">
                             Development Tools
                         </div>
                         <div className="skills-block">
-                            <div className="skills-block-item">
-                                <div className="skills-block-item_title">
-                                    Git
-                                </div>
-                                <ul className="skills-block-item_stars">
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-gray"></li>
-                                    <li className="star star-gray"></li>
-                                    <li className="star star-gray"></li>
-                                </ul>
-                            </div>
-                            <div className="skills-block-item">
-                                <div className="skills-block-item_title">
-                                    Agile Methodologies
-                                </div>
-                                <ul className="skills-block-item_stars">
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-gray"></li>
-                                    <li className="star star-gray"></li>
-                                    <li className="star star-gray"></li>
-                                </ul>
-                            </div>
-                            <div className="skills-block-item">
-                                <div className="skills-block-item_title">
-                                    Scrum
-                                </div>
-                                <ul className="skills-block-item_stars">
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-gray"></li>
-                                    <li className="star star-gray"></li>
-                                    <li className="star star-gray"></li>
-                                </ul>
-                            </div>
+
+                            <Skill title="Git" stars="7" />
+                            <Skill title="Agile Methodologies" stars="7" />
+                            <Skill title="Scrum" stars="7" />
                         </div>
                     </div>
 
-                    <div className="content--section-data-block">
+                    <div className="section-data-block">
                         <div className="subtitle">
                             Design Tools
                         </div>
                         <div className="skills-block">
-                            <div className="skills-block-item">
-                                <div className="skills-block-item_title">
-                                    Adobe Photoshop
-                                </div>
-                                <ul className="skills-block-item_stars">
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-gray"></li>
-                                    <li className="star star-gray"></li>
-                                </ul>
-                            </div>
-                            <div className="skills-block-item">
-                                <div className="skills-block-item_title">
-                                    Adobe Illustrator
-                                </div>
-                                <ul className="skills-block-item_stars">
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-gray"></li>
-                                    <li className="star star-gray"></li>
-                                    <li className="star star-gray"></li>
-                                    <li className="star star-gray"></li>
-                                </ul>
-                            </div>
-                            <div className="skills-block-item">
-                                <div className="skills-block-item_title">
-                                    Wireframes / Mockups
-                                </div>
-                                <ul className="skills-block-item_stars">
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-gray"></li>
-                                    <li className="star star-gray"></li>
-                                    <li className="star star-gray"></li>
-                                </ul>
-                            </div>
+
+                            <Skill title="Adobe Photoshop" stars="8" />
+                            <Skill title="Adobe Illustrator" stars="6" />
                         </div>
                     </div>
 
-                    <div className="content--section-data-block">
+                    <div className="section-data-block">
                         <div className="subtitle">
                             Languages
                         </div>
                         <div className="skills-block">
-                            <div className="skills-block-item">
-                                <div className="skills-block-item_title">
-                                    Spanish
-                                </div>
-                                <ul className="skills-block-item_stars">
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-yellow"></li>
-                                </ul>
-                            </div>
-                            <div className="skills-block-item">
-                                <div className="skills-block-item_title">
-                                    English
-                                </div>
-                                <ul className="skills-block-item_stars">
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-gray"></li>
-                                    <li className="star star-gray"></li>
-                                </ul>
-                            </div>
-                            <div className="skills-block-item">
-                                <div className="skills-block-item_title">
-                                    Portuguese
-                                </div>
-                                <ul className="skills-block-item_stars">
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-yellow"></li>
-                                    <li className="star star-gray"></li>
-                                    <li className="star star-gray"></li>
-                                    <li className="star star-gray"></li>
-                                    <li className="star star-gray"></li>
-                                    <li className="star star-gray"></li>
-                                    <li className="star star-gray"></li>
-                                </ul>
-                            </div>
+
+                            <Skill title="Spanish" stars="10" />
+                            <Skill title="English" stars="8" />
+                            <Skill title="Portuguese" stars="5" />
                         </div>
                     </div>
 
                 </div>
 
-                <div className="content--section-image">
+                <div className="section-image">
                     <img src="img/skills_256.png" />
                 </div>
-            </ContentSection>
+            </Section>
         );
     },
 

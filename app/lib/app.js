@@ -3,7 +3,6 @@ var React = require('react');
 
 // LAYOUT
 var Header = require('./components/layout/header');
-var Content = require('./components/layout/content');
 var Footer = require('./components/layout/footer');
 
 // VIEWS
@@ -17,18 +16,16 @@ var Contact = require('./components/views/contact');
 var App = React.createClass({
     render: function() {
         return (
-            <div className="container">
+            <div className="twelve columns">
                 <Header>
                 </Header>
 
-                <Content>
-                    <Main />
-                    <About />
-                    <Education />
-                    <Work />
-                    <Skills />
-                    <Contact />
-                </Content>
+                <Main />
+                <About />
+                <Education />
+                <Work />
+                <Skills />
+                <Contact />
 
                 <Footer>
                 </Footer>

@@ -2,7 +2,7 @@
 var React = require('react');
 var classNames = require('classnames');
 
-var ContentSection = React.createClass ({
+var Section = React.createClass ({
     propTypes: {
         children: React.PropTypes.node,
         className: React.PropTypes.string,
@@ -11,8 +11,10 @@ var ContentSection = React.createClass ({
 
     render: function () {
         return (
-            <div {...this.getProps()}>
-                {this.props.children}
+            <div className="row">
+                <div {...this.getProps()}>
+                    {this.props.children}
+                </div>
             </div>
         );
     },
@@ -28,7 +30,8 @@ var ContentSection = React.createClass ({
 
     getClass: function () {
         var classes = {
-            'content--section': true
+            'twelve columns': true,
+            'section': true
         };
 
         classes[this.props.className] = (this.props.className);
@@ -37,4 +40,4 @@ var ContentSection = React.createClass ({
     }
 });
 
-module.exports = ContentSection;
+module.exports = Section;

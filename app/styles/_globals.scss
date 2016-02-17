@@ -1,8 +1,9 @@
-@import "./reset";
+@import "./vendors/normalize";
+@import "./vendors/skeleton";
 @import "./variables";
 
-@import "./components/content";
 @import "./components/header";
+@import "./components/content";
     
 @import "./pages/main";
 @import "./pages/about";
