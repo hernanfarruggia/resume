@@ -15,7 +15,25 @@ var Work = React.createClass ({
 
                     <div className="section-data-block">
                         <div className="subtitle">
-                            Front End Developer
+                            Tech Lead Frontend
+                            <br />
+                            <span className="subtitle_small">GlobalLogic Latin America</span>
+                        </div>
+                        <div className="date">
+                            [ Jul 2017 - Present ]
+                        </div>
+                        <div className="description">
+                            <p>
+                                I&#39;m performing as Tech Lead of the team in my current project. My goals are to
+                                keep the work in track, assist team mates when needed, keep a good work environment
+                                and a continuos worflow and try to get the better from each one of them.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div className="section-data-block">
+                        <div className="subtitle">
+                            Sr. Frontend Developer
                             <br />
                             <span className="subtitle_small">Global Logic Latin America</span>
                         </div>
@@ -24,16 +42,18 @@ var Work = React.createClass ({
                         </div>
                         <div className="description">
                             <p>
-                                I&#39;m developing apps as a part of a UI Team using Angular JS
-                                as a main development framework. Adding more challenges to 
-                                my career.
+                                I&#39;ve been developing web platforms across the more of 4 different projects
+                                in the past 2 years. I&#39;m in constant communication with the team and the client.
+                                We as a team, implemented and designed solutions for client requirements,
+                                using agile methodologies to keep track of the entire dev process. Im my current
+                                project, I&#39;m using technologies as Javascript, Angular, Lodash, HTML and CSS (LESS).
                             </p>
                         </div>
                     </div>
 
                     <div className="section-data-block">
                         <div className="subtitle">
-                            Front End Developer
+                            Frontend Developer
                             <br />
                             <span className="subtitle_small">Globant</span>
                         </div>
@@ -60,30 +80,7 @@ var Work = React.createClass ({
 
                     <div className="section-data-block">
                         <div className="subtitle">
-                            Full Stack Developer & Designer
-                            <br />
-                            <span className="subtitle_small">Estudio Syncro</span>
-                        </div>
-                        <div className="date">
-                            [ Sep 2011 - Jun 2014 ]
-                        </div>
-                        <div className="description">
-                            <p>
-                                Websites and app devlopment. I&#39;ve play different
-                                roles during this period, since Busines Alanlyst,
-                                Designer or Developer to implementation and management.
-                            </p>
-                            <p>
-                                Working as a freelancer I&#39;ve improved my skills
-                                on many different fields, and learn to develop
-                                the entire process of a project.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div className="section-data-block">
-                        <div className="subtitle">
-                            PHP Programmer
+                            Web Developer
                             <br />
                             <span className="subtitle_small">7L Freight</span>
                         </div>
@@ -101,25 +98,6 @@ var Work = React.createClass ({
                                 Also used MySql databases and perform different
                                 UI scripts and updates on the website and
                                 internal tools.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div className="section-data-block">
-                        <div className="subtitle">
-                            Web Developer
-                            <br />
-                            <span className="subtitle_small">SoyTuAuto.com</span>
-                        </div>
-                        <div className="date">
-                            [ Dec 2009 - Oct 2010 ]
-                        </div>
-                        <div className="description">
-                            <p>
-                                I was in charge of the development and
-                                maintenance of the main website. I&#39;ve worked
-                                with technologies like PHP, JavaScript,
-                                MySql and Apache Server.
                             </p>
                         </div>
                     </div>

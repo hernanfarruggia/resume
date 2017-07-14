@@ -18,41 +18,20 @@ var Skills = React.createClass ({
 
                     <div className="section-data-block">
                         <div className="subtitle">
-                            Front End Skills
+                            General Skills
                         </div>
                         <div className="skills-block">
 
                             <Skill title="Javascript" stars="8" />
-                            <Skill title="React JS" stars="7" />
-                            <Skill title="Angular JS" stars="6" />
-                            <Skill title="jQuery" stars="5" />
-                            <Skill title="Gulp" stars="8" />
+                            <Skill title="ES6" stars="7" />
+                            <Skill title="React JS" stars="8" />
+                            <Skill title="Angular JS" stars="8" />
+                            <Skill title="Build Tools" stars="7" />
                             <Skill title="HTML" stars="9" />
                             <Skill title="CSS" stars="8" />
-                            <Skill title="SASS" stars="7" />
-                        </div>
-                    </div>
-
-                    <div className="section-data-block">
-                        <div className="subtitle">
-                            Development Tools
-                        </div>
-                        <div className="skills-block">
-
+                            <Skill title="SASS/LESS" stars="7" />
                             <Skill title="Git" stars="7" />
-                            <Skill title="Agile Methodologies" stars="7" />
-                            <Skill title="Scrum" stars="7" />
-                        </div>
-                    </div>
-
-                    <div className="section-data-block">
-                        <div className="subtitle">
-                            Design Tools
-                        </div>
-                        <div className="skills-block">
-
-                            <Skill title="Adobe Photoshop" stars="8" />
-                            <Skill title="Adobe Illustrator" stars="6" />
+                            <Skill title="Agile Methodologies" stars="8" />
                         </div>
                     </div>
 

@@ -29,28 +29,16 @@ var About = React.createClass ({
                                 intrigue in me.
                             </p>
                             <p>
-
-                                As a programmer I should say that almost everything
-                                that I know I&#39;ve learned it from try new stuffs, reading
-                                a lot, sometimes by try and error, and more important,
-                                working. Work is the biggest school. That&#39;s why
-                                I love to work, because I love to learn, I need to
-                                keep my mind learning new things constantly.
+                                As developer I should say that almost everything
+                                that I know I&#39;ve learned it from trying new stuffs, reading
+                                a lot, and more important,working.
+                                Work is the biggest school and forces you to keep you up to date and
+                                in track.
                             </p>
                             <p>
-                                Speaking about work, I&#39;m a very organized person
-                                and like to be part of teams.
-
-                                As a professional, I&#39;m developing my carreer day by day
-                                trying to stay up to date with last technologies
-                                and improving my knowleadges constantly as possible.
-                            </p>
-                            <p>
-                                I&#39;m currently working at Global Logic Rosario&#39;s
-                                offices as a Web UI Developer, I really love
-                                what I do and my goal is keep growing as a
-                                professional and develop my skills as far as
-                                possible.
+                                I really love what I do and my goal is keep growing as a professional
+                                and increase my skills as far as possible. Is that simple, just decide
+                                want you want in your life, and fight for it!
                             </p>
                         </div>
                     </div>
